@@ -14,6 +14,10 @@
 		07E7F60521CCE1BE00081E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E7F60321CCE1BE00081E0D /* LaunchScreen.storyboard */; };
 		07E7F61021CCE1BF00081E0D /* temoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7F60F21CCE1BF00081E0D /* temoTests.swift */; };
 		07E7F61B21CCE1BF00081E0D /* temoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7F61A21CCE1BF00081E0D /* temoUITests.swift */; };
+		07E7F62921CCE32100081E0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07E7F62821CCE32100081E0D /* GoogleService-Info.plist */; };
+		268304B1DBBB6B2B05FCC642 /* Pods_temoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F83B54670EC78C1870902F1 /* Pods_temoTests.framework */; };
+		3B3B91F2C4F06B319C4470A4 /* Pods_temoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431D19DD7E7707FDCF94B4BB /* Pods_temoUITests.framework */; };
+		767BA8693303C888A1DC2EDF /* Pods_temo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B93C7918615ACF831C25990 /* Pods_temo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,16 @@
 		07E7F61621CCE1BF00081E0D /* temoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = temoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E7F61A21CCE1BF00081E0D /* temoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temoUITests.swift; sourceTree = "<group>"; };
 		07E7F61C21CCE1BF00081E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E7F62821CCE32100081E0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0B93C7918615ACF831C25990 /* Pods_temo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_temo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCE7D3195196AD8008EF251 /* Pods-temoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-temoTests/Pods-temoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F83B54670EC78C1870902F1 /* Pods_temoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_temoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1197A8B43B3A615F9E0301D5 /* Pods-temo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-temo/Pods-temo.debug.xcconfig"; sourceTree = "<group>"; };
+		254A21ADCE0682E943C64329 /* Pods-temoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-temoUITests/Pods-temoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		431D19DD7E7707FDCF94B4BB /* Pods_temoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_temoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4655404FF1A7A00B2971D90 /* Pods-temoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-temoTests/Pods-temoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3D940BCC0D75396EF65EE76 /* Pods-temo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temo.release.xcconfig"; path = "Pods/Target Support Files/Pods-temo/Pods-temo.release.xcconfig"; sourceTree = "<group>"; };
+		EC42C375E5E620246AA772B5 /* Pods-temoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-temoUITests/Pods-temoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767BA8693303C888A1DC2EDF /* Pods_temo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268304B1DBBB6B2B05FCC642 /* Pods_temoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3B91F2C4F06B319C4470A4 /* Pods_temoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				07E7F60E21CCE1BF00081E0D /* temoTests */,
 				07E7F61921CCE1BF00081E0D /* temoUITests */,
 				07E7F5F821CCE1BD00081E0D /* Products */,
+				45A5D32D86938975BC315F83 /* Pods */,
+				E51B763EC9EF068F5EC8AC92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,7 @@
 		07E7F5F921CCE1BD00081E0D /* temo */ = {
 			isa = PBXGroup;
 			children = (
+				07E7F62821CCE32100081E0D /* GoogleService-Info.plist */,
 				07E7F5FA21CCE1BD00081E0D /* AppDelegate.swift */,
 				07E7F5FC21CCE1BD00081E0D /* ViewController.swift */,
 				07E7F5FE21CCE1BD00081E0D /* Main.storyboard */,
@@ -125,6 +145,29 @@
 			path = temoUITests;
 			sourceTree = "<group>";
 		};
+		45A5D32D86938975BC315F83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1197A8B43B3A615F9E0301D5 /* Pods-temo.debug.xcconfig */,
+				E3D940BCC0D75396EF65EE76 /* Pods-temo.release.xcconfig */,
+				0DCE7D3195196AD8008EF251 /* Pods-temoTests.debug.xcconfig */,
+				A4655404FF1A7A00B2971D90 /* Pods-temoTests.release.xcconfig */,
+				254A21ADCE0682E943C64329 /* Pods-temoUITests.debug.xcconfig */,
+				EC42C375E5E620246AA772B5 /* Pods-temoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E51B763EC9EF068F5EC8AC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B93C7918615ACF831C25990 /* Pods_temo.framework */,
+				0F83B54670EC78C1870902F1 /* Pods_temoTests.framework */,
+				431D19DD7E7707FDCF94B4BB /* Pods_temoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07E7F61F21CCE1BF00081E0D /* Build configuration list for PBXNativeTarget "temo" */;
 			buildPhases = (
+				02B7BA279BC879FFC8F2668B /* [CP] Check Pods Manifest.lock */,
 				07E7F5F321CCE1BD00081E0D /* Sources */,
 				07E7F5F421CCE1BD00081E0D /* Frameworks */,
 				07E7F5F521CCE1BD00081E0D /* Resources */,
+				8826BC2EAD71D64D1A117A8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07E7F62221CCE1BF00081E0D /* Build configuration list for PBXNativeTarget "temoTests" */;
 			buildPhases = (
+				BA680C3F45482D4BCB7A4098 /* [CP] Check Pods Manifest.lock */,
 				07E7F60721CCE1BF00081E0D /* Sources */,
 				07E7F60821CCE1BF00081E0D /* Frameworks */,
 				07E7F60921CCE1BF00081E0D /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07E7F62521CCE1BF00081E0D /* Build configuration list for PBXNativeTarget "temoUITests" */;
 			buildPhases = (
+				72DC225D8F0BC25F6A425410 /* [CP] Check Pods Manifest.lock */,
 				07E7F61221CCE1BF00081E0D /* Sources */,
 				07E7F61321CCE1BF00081E0D /* Frameworks */,
 				07E7F61421CCE1BF00081E0D /* Resources */,
@@ -230,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07E7F60521CCE1BE00081E0D /* LaunchScreen.storyboard in Resources */,
+				07E7F62921CCE32100081E0D /* GoogleService-Info.plist in Resources */,
 				07E7F60221CCE1BE00081E0D /* Assets.xcassets in Resources */,
 				07E7F60021CCE1BD00081E0D /* Main.storyboard in Resources */,
 			);
@@ -250,6 +298,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02B7BA279BC879FFC8F2668B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-temo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72DC225D8F0BC25F6A425410 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-temoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8826BC2EAD71D64D1A117A8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-temo/Pods-temo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalculateCalendarLogic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-temo/Pods-temo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA680C3F45482D4BCB7A4098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-temoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07E7F5F321CCE1BD00081E0D /* Sources */ = {
@@ -430,6 +577,7 @@
 		};
 		07E7F62021CCE1BF00081E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1197A8B43B3A615F9E0301D5 /* Pods-temo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +596,7 @@
 		};
 		07E7F62121CCE1BF00081E0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D940BCC0D75396EF65EE76 /* Pods-temo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +615,7 @@
 		};
 		07E7F62321CCE1BF00081E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DCE7D3195196AD8008EF251 /* Pods-temoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +637,7 @@
 		};
 		07E7F62421CCE1BF00081E0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4655404FF1A7A00B2971D90 /* Pods-temoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +659,7 @@
 		};
 		07E7F62621CCE1BF00081E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254A21ADCE0682E943C64329 /* Pods-temoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +680,7 @@
 		};
 		07E7F62721CCE1BF00081E0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC42C375E5E620246AA772B5 /* Pods-temoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
